@@ -21,6 +21,13 @@
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/responsive.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <style>
+            .contact-container {
+              border-radius: 5px;
+              background-color: #f2f2f2;
+              padding: 20px;
+            }
+            </style>
 
     </head>
     <body>
@@ -480,12 +487,9 @@
         <section id="section6" class="contact">
             <div class="contact100-form-title container">
                 <h3>Keep In Touch
-                    
                 </h3>
                 <h2>Send A Message</h2>
-
                 <div class="container">
-                    <h1>FormSubmit Demo</h1>
                     <form target="_blank" action="https://formsubmit.co/7d3287e0a3ac4a76c543d0cc77a70c65" method="POST">
                       <div class="form-group">
                         <div class="form-row">
@@ -500,12 +504,13 @@
                       <div class="form-group">
                         <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
                       </div>
+                      <input type="hidden" name="_next" value="/thanks.html">
                       <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
                     </form>
                   </div>
             
                
-                    <form class="contact100-form validate-form" action="https://formsubmit.co/melkamu372@gmail.com" method="POST" >
+                    <!-- <form class="contact100-form validate-form" action="https://formsubmit.co/melkamu372@gmail.com" method="POST" >
                        <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Name is required">
                             <span class="label-input100">Your Name</span>
                             <input class="input100" type="text" name="name"  placeholder="Enter your name">
@@ -533,11 +538,11 @@
                             </button>
                         </div>
 
-                         <!-- <div class="container-contact100-form-btn response" style="margin-top: 30px;">
+                         <div class="container-contact100-form-btn response" style="margin-top: 30px;">
                             <p class="error">
                             </p> 
-                        </div>  -->
-                    </form>
+                        </div> 
+                    </form> -->
                 </div>
         </section>
         <!-- Contact End -->
@@ -545,8 +550,6 @@
         <section id="section7" class="row address parallax-window" data-parallax="scroll" data-image-src="img/slider/contactbg.jpg">
             <div class="col-md-12">
                     <div class="row">
-               
-Welcome
                         <div class="col-md-5 col-md-offset-1 addess-description">
                              <span>Bifacon Engineering Location</span>
                             <h2>Address</h2>
